@@ -92,3 +92,4 @@ book_store.list_all_managers
 book_store.list_all_coffee_shop 
 
 book_store.list_all_events
+book_store.yassi

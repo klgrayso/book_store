@@ -1,6 +1,7 @@
 class BookStore
 	attr_accessor :employees, :inventory, :status, :managers, :coffee_shop, :events
 
+
 	def initialize(opts={})
 		@employees = opts[:employees]
 		@inventory = opts[:inventory]
@@ -10,6 +11,10 @@ class BookStore
 		@managers = opts[:managers]
 		@coffee_shop = opts[:coffee_shop]
 		@events = opts[:events]
+	end
+	def yassi
+		puts "this is yassis method"
+
 	end
 
 	def list_all_employees
